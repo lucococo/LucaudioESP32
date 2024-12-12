@@ -5212,6 +5212,12 @@
 		(uuid "4f7bfcb3-a5d5-40f6-b02e-9e0e4a6b5fb0")
 	)
 	(junction
+		(at 33.02 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55d766e4-4c54-4a0a-8f03-9d0b8cf0c791")
+	)
+	(junction
 		(at 50.8 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5569,7 +5575,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 140.97) (xy 36.83 140.97)
+			(xy 29.21 140.97) (xy 33.02 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6096,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "2c14c6ae-2f92-4159-8571-938c82fc9407")
+	)
+	(wire
+		(pts
+			(xy 33.02 140.97) (xy 36.83 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7813fe-f9b7-4531-b8d4-4ef762d7fea4")
 	)
 	(wire
 		(pts
@@ -8179,6 +8195,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 146.05) (xy 33.02 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1354ff-d415-4ae7-891e-2da8e503929c")
+	)
+	(wire
+		(pts
 			(xy 113.03 154.94) (xy 113.03 167.64)
 		)
 		(stroke
@@ -9886,7 +9912,7 @@
 			(uuid "9856297d-e676-461e-a88c-226bc988752c")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R8")
 					(unit 1)
@@ -9951,7 +9977,7 @@
 			(uuid "dc311938-a5b8-491b-be9b-526e02c0e3b4")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR010")
 					(unit 1)
@@ -10020,7 +10046,7 @@
 			(uuid "8e88502f-f072-4676-86af-fe94acc7fcdf")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C2")
 					(unit 1)
@@ -10087,7 +10113,7 @@
 			(uuid "543c125d-1249-4b3c-a91d-1a2c63d8ac4d")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R15")
 					(unit 1)
@@ -10153,7 +10179,7 @@
 			(uuid "5e20c9bb-44ce-47b0-a43b-1d318a1cd802")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0121")
 					(unit 1)
@@ -10222,7 +10248,7 @@
 			(uuid "273b7752-3c49-4f0e-b282-99e5db3f236a")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C29")
 					(unit 1)
@@ -10298,7 +10324,7 @@
 			(uuid "32181f23-f6ed-4cf6-b3d6-d24c2bdc77d6")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U3")
 					(unit 1)
@@ -10365,7 +10391,7 @@
 			(uuid "5e71d63d-1801-44e3-8e36-35b3f777f8a0")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "D2")
 					(unit 1)
@@ -10432,7 +10458,7 @@
 			(uuid "d4a3e57b-7713-40ba-b5ee-9e1008e57dd4")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "D3")
 					(unit 1)
@@ -10502,7 +10528,7 @@
 			(uuid "1e8f74b6-87c6-4308-8b31-e043b4a83818")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C22")
 					(unit 1)
@@ -10568,7 +10594,7 @@
 			(uuid "5045fed2-9b67-44d0-a5a5-83d2fb9307da")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0104")
 					(unit 1)
@@ -10749,7 +10775,7 @@
 			(uuid "d67d40dd-abe3-4b6b-9049-4635b3e7fdca")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U1")
 					(unit 1)
@@ -10862,7 +10888,7 @@
 			(uuid "519d8ff9-9347-4187-9521-4f41da56d1d6")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "J3")
 					(unit 1)
@@ -10932,7 +10958,7 @@
 			(uuid "8a39ddb1-8439-44a9-9f49-fd110aa2e33c")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C9")
 					(unit 1)
@@ -11001,7 +11027,7 @@
 			(uuid "a7f6521b-d1cd-4e58-9c75-3d7cdbf87f4b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C26")
 					(unit 1)
@@ -11071,7 +11097,7 @@
 			(uuid "8783e8c1-6f48-48c4-a8be-b86bce883435")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C12")
 					(unit 1)
@@ -11137,7 +11163,7 @@
 			(uuid "48666f0f-c17d-46f9-a3fa-9a9d5cb6be08")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0112")
 					(unit 1)
@@ -11203,7 +11229,7 @@
 			(uuid "c0a84320-b16a-4523-9d2b-b1fdaef79be6")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0123")
 					(unit 1)
@@ -11272,7 +11298,7 @@
 			(uuid "19a31985-1503-4596-8e4b-3e1c44add8da")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C15")
 					(unit 1)
@@ -11340,7 +11366,7 @@
 			(uuid "37e8cf7b-45b6-475f-af72-d9f318b1ae21")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "SW1")
 					(unit 1)
@@ -11409,7 +11435,7 @@
 			(uuid "1c9d7cce-6c99-46b7-bfe6-6705f91891ef")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C14")
 					(unit 1)
@@ -11474,7 +11500,7 @@
 			(uuid "3fe6ffd4-629e-4731-b1d8-93dc6c5f9e8d")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR01")
 					(unit 1)
@@ -11543,7 +11569,7 @@
 			(uuid "b1137517-c202-4c41-a9a7-63b9267c9601")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R12")
 					(unit 1)
@@ -11612,7 +11638,7 @@
 			(uuid "c774ad48-71aa-4bf1-8e25-0e88f055854d")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C17")
 					(unit 1)
@@ -11679,7 +11705,7 @@
 			(uuid "f24f2f31-9497-48ef-ade7-92894d583209")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "TP4")
 					(unit 1)
@@ -11745,7 +11771,7 @@
 			(uuid "a0a43ace-495b-463c-96c7-cd100cb9d589")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0118")
 					(unit 1)
@@ -11811,7 +11837,7 @@
 			(uuid "2a4eeb4f-2d25-4fae-834c-c2a93965034b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0113")
 					(unit 1)
@@ -11878,7 +11904,7 @@
 			(uuid "472cacfb-abd1-40e3-9287-5c38f219defd")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "TP2")
 					(unit 1)
@@ -11949,7 +11975,7 @@
 			(uuid "833c01b1-4468-4f2d-b4e7-d2538299c1ff")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U6")
 					(unit 1)
@@ -12016,7 +12042,7 @@
 			(uuid "66fa26f9-ef92-475f-b6fd-b40fcf23bbb2")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "TP3")
 					(unit 1)
@@ -12096,7 +12122,7 @@
 			(uuid "fe4707e3-5205-435b-bb8d-14e0c958714a")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "J8")
 					(unit 1)
@@ -12228,7 +12254,7 @@
 			(uuid "ae51ae6b-83b8-4432-9f52-d98dc9bd1ec8")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0101")
 					(unit 1)
@@ -12295,7 +12321,7 @@
 			(uuid "0cbd13fc-4415-4ed2-8b55-53db1bf48059")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "TP1")
 					(unit 1)
@@ -12362,7 +12388,7 @@
 			(uuid "bda70fa3-fec5-4dbb-99ce-cdfb0f9f641b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R2")
 					(unit 1)
@@ -12431,7 +12457,7 @@
 			(uuid "d028db33-a0c9-4edb-8f6b-0e5f3066bce5")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C28")
 					(unit 1)
@@ -12501,7 +12527,7 @@
 			(uuid "25104e0b-479a-4877-9e4a-d1ac31ec2d9d")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C19")
 					(unit 1)
@@ -12570,7 +12596,7 @@
 			(uuid "d7fc7076-dae5-41bf-8d2f-88f3443852eb")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C25")
 					(unit 1)
@@ -12640,7 +12666,7 @@
 			(uuid "275e49fc-7f04-49c5-b1f2-17c95031ac8b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C11")
 					(unit 1)
@@ -12710,7 +12736,7 @@
 			(uuid "cfee78f2-6816-4ac8-8147-cc94b05c65c1")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C21")
 					(unit 1)
@@ -12787,7 +12813,7 @@
 			(uuid "e732526a-4c16-4c5a-a85c-d9f75203b031")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "J5")
 					(unit 1)
@@ -12854,7 +12880,7 @@
 			(uuid "f1a45818-fcf5-453d-9b06-59ccc7d4445c")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R1")
 					(unit 1)
@@ -12925,7 +12951,7 @@
 			(uuid "67940c8f-943b-49dd-90b3-eb97ea52f0bf")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "J9")
 					(unit 1)
@@ -12995,7 +13021,7 @@
 			(uuid "a57dab6c-d717-4ceb-8134-5b698a42a00c")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C10")
 					(unit 1)
@@ -13060,9 +13086,75 @@
 			(uuid "c3108f70-71f5-4f86-9431-ede8493701bb")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81eb23a0-63d4-4e77-ac4b-989848c5458f")
+		(property "Reference" "#PWR012"
+			(at 33.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b166e138-1e77-4a57-bdc5-940735fcf0b3")
+		)
+		(instances
+			(project "LucaudioESP32_V1_2_0"
+				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13129,7 +13221,7 @@
 			(uuid "9a208496-5c99-40ec-8962-de548c6df7b3")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C30")
 					(unit 1)
@@ -13198,7 +13290,7 @@
 			(uuid "d3440025-41ed-489a-9594-dae29e385b4d")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C3")
 					(unit 1)
@@ -13268,7 +13360,7 @@
 			(uuid "ce02fdbf-cf37-4eab-8dab-94b2bb31389b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C8")
 					(unit 1)
@@ -13334,7 +13426,7 @@
 			(uuid "a8e43c5a-c656-4a26-a9a1-7a974f7c3d5b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0110")
 					(unit 1)
@@ -13407,7 +13499,7 @@
 			(uuid "75551f63-e6cd-426f-a9d0-05564c7e7b98")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "J4")
 					(unit 1)
@@ -13473,7 +13565,7 @@
 			(uuid "fc6c32a6-9ecf-47e4-bad0-68f95e7d2b6f")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0108")
 					(unit 1)
@@ -13541,7 +13633,7 @@
 			(uuid "a5f4d994-5c59-444c-bae4-f6516ed3bdc8")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "SW2")
 					(unit 1)
@@ -13607,7 +13699,7 @@
 			(uuid "f1809232-be2d-44ed-93ba-75d36e51503a")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0120")
 					(unit 1)
@@ -13673,7 +13765,7 @@
 			(uuid "eb731b60-4a26-498a-ae93-19b9bea08922")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0119")
 					(unit 1)
@@ -13741,7 +13833,7 @@
 			(uuid "c9f8bd2b-a3e1-48a3-aa6b-e0bc101dee21")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "D1")
 					(unit 1)
@@ -13811,7 +13903,7 @@
 			(uuid "e5d44751-2caa-4319-b818-9560dbada61a")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C24")
 					(unit 1)
@@ -13881,7 +13973,7 @@
 			(uuid "c22cb24d-882b-47a6-b296-143f935ed794")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C23")
 					(unit 1)
@@ -13950,7 +14042,7 @@
 			(uuid "ad5e84cd-ec44-42dc-b695-839f02329695")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C1")
 					(unit 1)
@@ -14020,7 +14112,7 @@
 			(uuid "65a5a0d3-c391-4fc5-b3fa-0176cd6cc05b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "D4")
 					(unit 1)
@@ -14089,7 +14181,7 @@
 			(uuid "f0f8905b-5d41-4e9c-9d8d-70f5e60dffff")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R9")
 					(unit 1)
@@ -14155,7 +14247,7 @@
 			(uuid "3c94ffc9-88b0-42f5-b61a-c10e7e938c45")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR011")
 					(unit 1)
@@ -14221,7 +14313,7 @@
 			(uuid "d1019c92-7b4d-47ea-acc6-cf38ba102995")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0122")
 					(unit 1)
@@ -14291,7 +14383,7 @@
 			(uuid "8f58ee9e-246e-442c-988a-b28cc92032dc")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C20")
 					(unit 1)
@@ -14361,7 +14453,7 @@
 			(uuid "214c5df7-185e-4b63-8401-2073c62cbe0a")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C5")
 					(unit 1)
@@ -14449,7 +14541,7 @@
 			(uuid "7e01fa75-bdeb-4f53-a413-508106d9bc28")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U8")
 					(unit 1)
@@ -14516,7 +14608,7 @@
 			(uuid "07e4e316-19ef-44a4-8498-aae5f6333f28")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R7")
 					(unit 1)
@@ -14583,7 +14675,7 @@
 			(uuid "6c79ba80-3471-4026-89dd-b132f37e0218")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R3")
 					(unit 1)
@@ -14707,7 +14799,7 @@
 			(uuid "cf4bd7cb-4e76-4aed-8cfb-afd8dc625fc9")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U4")
 					(unit 1)
@@ -14776,7 +14868,7 @@
 			(uuid "af4bd320-fe85-4a16-b2d4-151c9081aa82")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C16")
 					(unit 1)
@@ -14842,7 +14934,7 @@
 			(uuid "0d4b69e8-fc59-4eaf-85a8-e3f051c85fd0")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0102")
 					(unit 1)
@@ -14911,7 +15003,7 @@
 			(uuid "88c5c256-5ba6-44e1-9436-9684eb60b6a1")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C7")
 					(unit 1)
@@ -14980,7 +15072,7 @@
 			(uuid "192bbd6e-7431-47a8-afeb-d4cf3103fd1b")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C4")
 					(unit 1)
@@ -15049,7 +15141,7 @@
 			(uuid "61909764-a5ad-4b2e-8a40-26fb5918e43f")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C18")
 					(unit 1)
@@ -15125,7 +15217,7 @@
 			(uuid "9656e8fe-5e56-407f-a388-57a14ba218e9")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U5")
 					(unit 1)
@@ -15195,7 +15287,7 @@
 			(uuid "0c7af4b8-2a0f-4032-9bae-4bfb7bceb165")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C6")
 					(unit 1)
@@ -15261,7 +15353,7 @@
 			(uuid "179006bd-d95a-476d-907c-8235a7fa5689")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0111")
 					(unit 1)
@@ -15328,7 +15420,7 @@
 			(uuid "cf964399-432e-48d0-a164-459f63916070")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R4")
 					(unit 1)
@@ -15404,7 +15496,7 @@
 			(uuid "00b9ec13-423d-4388-a797-fcdb762b86ca")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "U2")
 					(unit 1)
@@ -15469,7 +15561,7 @@
 			(uuid "7d89b718-3618-4fd3-bec2-c291713b508a")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0107")
 					(unit 1)
@@ -15537,7 +15629,7 @@
 			(uuid "ffc9cc2c-a8cc-4b80-84e8-e8d4f7097ff1")
 		)
 		(instances
-			(project ""
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "F1")
 					(unit 1)
@@ -15603,7 +15695,7 @@
 			(uuid "690876ad-f198-48a8-b490-cac29832a28f")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0117")
 					(unit 1)
@@ -15672,7 +15764,7 @@
 			(uuid "85553dc3-359c-48a9-a338-ea5a0e612ad9")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R11")
 					(unit 1)
@@ -15738,7 +15830,7 @@
 			(uuid "7a3835bd-7255-4c48-82f6-4eb9ad24dd9e")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0109")
 					(unit 1)
@@ -15810,7 +15902,7 @@
 			(uuid "1e439b65-387f-4b24-9974-07345ceeaf89")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "J2")
 					(unit 1)
@@ -15876,7 +15968,7 @@
 			(uuid "5115ef13-1e19-4086-9da3-b05f1f8388a6")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0115")
 					(unit 1)
@@ -15942,7 +16034,7 @@
 			(uuid "bb7c433b-eb84-4d02-8199-bad6dc3bdf18")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "#PWR0114")
 					(unit 1)
@@ -16011,9 +16103,78 @@
 			(uuid "e5322891-7a5d-4803-9355-24bb439080b5")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 33.02 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f556dd10-2dbc-4b65-bc38-f72b39f87ed6")
+		(property "Reference" "C33"
+			(at 34.798 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 34.798 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 33.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 33.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "882229fe-b91a-48d0-8913-a1246d641a39")
+		)
+		(pin "2"
+			(uuid "77c92c1b-f78d-4f6b-8810-3a2eca3e12a4")
+		)
+		(instances
+			(project "LucaudioESP32_V1_2_0"
+				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -16080,7 +16241,7 @@
 			(uuid "bb4caec7-381b-4ad9-80c9-d537758b0b4e")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C27")
 					(unit 1)
@@ -16149,7 +16310,7 @@
 			(uuid "8f830243-8533-493d-995e-f096028b9868")
 		)
 		(instances
-			(project "LucaudioESP32_V1_1_0"
+			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "R16")
 					(unit 1)
