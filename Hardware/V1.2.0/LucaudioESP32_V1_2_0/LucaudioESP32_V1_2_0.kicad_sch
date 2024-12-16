@@ -4898,6 +4898,179 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -5212,12 +5385,6 @@
 		(uuid "4f7bfcb3-a5d5-40f6-b02e-9e0e4a6b5fb0")
 	)
 	(junction
-		(at 33.02 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55d766e4-4c54-4a0a-8f03-9d0b8cf0c791")
-	)
-	(junction
 		(at 50.8 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5270,6 +5437,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a3eacd0-2a5c-472c-8e14-0c4589818e97")
+	)
+	(junction
+		(at 33.02 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a49dde0-83be-4acf-978e-efc49ba9dfac")
 	)
 	(junction
 		(at 38.1 124.46)
@@ -5572,16 +5745,6 @@
 			(type default)
 		)
 		(uuid "02280615-9ab5-48b5-92cc-f1bbeb2bbf12")
-	)
-	(wire
-		(pts
-			(xy 29.21 140.97) (xy 33.02 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "028544ce-f4ef-42c3-b803-52375483392a")
 	)
 	(wire
 		(pts
@@ -7032,6 +7195,16 @@
 			(type default)
 		)
 		(uuid "744619f0-4dd0-4e8f-a5af-73da06ac0419")
+	)
+	(wire
+		(pts
+			(xy 30.48 140.97) (xy 33.02 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cf6082-5553-4e50-8777-3ee84add04b0")
 	)
 	(wire
 		(pts
@@ -8575,6 +8748,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 143.51) (xy 20.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8bd081-f405-4d59-8906-9f529fb74e2a")
+	)
+	(wire
+		(pts
 			(xy 124.46 53.34) (xy 124.46 55.88)
 		)
 		(stroke
@@ -8680,8 +8863,8 @@
 		(uuid 862c0ba8-e267-4d12-b05a-20fdd72396cd)
 	)
 	(rectangle
-		(start 123.19 17.78)
-		(end 139.7 22.86)
+		(start 149.352 15.621)
+		(end 165.862 20.701)
 		(stroke
 			(width 0)
 			(type default)
@@ -8714,6 +8897,25 @@
 			(type none)
 		)
 		(uuid e68c46f9-3e90-4378-b686-763173e5ea25)
+	)
+	(text_box "Options"
+		(exclude_from_sim no)
+		(at 203.2 101.6 0)
+		(size 18.415 4.445)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "#2")
+		)
+		(uuid "af603c17-54d9-4e2d-b2d8-2f407d88e042")
 	)
 	(text "PCM5102 DAC"
 		(exclude_from_sim no)
@@ -8767,7 +8969,7 @@
 	)
 	(text "USB TO SERIAL"
 		(exclude_from_sim no)
-		(at 131.318 20.574 0)
+		(at 157.48 18.415 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9085,7 +9287,7 @@
 	)
 	(global_label "Vusb"
 		(shape output)
-		(at 29.21 140.97 180)
+		(at 19.05 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9095,7 +9297,7 @@
 		)
 		(uuid "5cf1a1fb-4053-4aa4-b4fd-751c0f560a41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.8101 140.97 0)
+			(at 11.6501 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,6 +10251,77 @@
 			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 25.4 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "138be9f8-af65-47f7-a5aa-b756e3bf8ba1")
+		(property "Reference" "SW4"
+			(at 25.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local_lbr:Slide_angular_SPDT"
+			(at 25.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 25.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9b6e25-7a15-455a-9e86-d18b3a34c35b")
+		)
+		(pin "3"
+			(uuid "a70d3686-6eed-4619-a8ef-094e155de76d")
+		)
+		(pin "2"
+			(uuid "afb7bf8d-aef5-4e2c-9eac-cbec9e998d57")
+		)
+		(instances
+			(project "LucaudioESP32_V1_2_0"
+				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -12914,7 +13187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "local_lbr:JST_3p_audio"
 			(at 177.8 123.19 0)
 			(effects
 				(font
