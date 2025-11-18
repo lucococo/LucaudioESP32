@@ -199,8 +199,8 @@
 	(net 76 "Net-(LED1-A)")
 	(net 77 "Net-(LED2-A)")
 	(net 78 "Net-(SW4-B)")
-	(net 79 "Net-(Q1-E)")
-	(net 80 "Net-(Q2-E)")
+	(net 79 "Net-(Q1-C)")
+	(net 80 "Net-(Q2-C)")
 	(net 81 "unconnected-(SW4-C-Pad3)")
 	(net 82 "Net-(Q1-B)")
 	(net 83 "Net-(Q2-B)")
@@ -2470,7 +2470,7 @@
 		(descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F1"
-			(at 0.0508 -1.7272 360)
+			(at 0.0508 -1.7272 0)
 			(layer "F.SilkS")
 			(uuid "7cb064cd-4c30-4c9b-a986-8d73ea23e6d2")
 			(effects
@@ -2481,7 +2481,7 @@
 			)
 		)
 		(property "Value" "300mA"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "1e77c30f-56b5-4782-a8a4-efcf991f6790")
 			(effects
@@ -2636,7 +2636,7 @@
 			(uuid "8bd88ce4-ab4e-4c65-b307-65fcba4a9815")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a1e8c9ca-8bf7-4823-b21a-727f2b7c736b")
 			(effects
@@ -9092,7 +9092,7 @@
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at -2.6924 -0.1786 -0)
+			(at -2.6924 -0.1786 0)
 			(layer "B.SilkS")
 			(uuid "4f96f3e9-fdfc-44a1-a7f0-c18e9efa11d3")
 			(effects
@@ -10996,7 +10996,7 @@
 		(descr "Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J6"
-			(at -2.8448 -0.6622 -0)
+			(at -2.8448 -0.6622 0)
 			(layer "B.SilkS")
 			(uuid "9200aa13-9d7e-4751-bb58-86b914ef1eef")
 			(effects
@@ -14340,7 +14340,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C33"
-			(at -0.1524 1.778 360)
+			(at -0.1524 1.778 0)
 			(layer "F.SilkS")
 			(uuid "622bebfc-1809-4091-bb83-e0cb741b53ca")
 			(effects
@@ -14351,7 +14351,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "ffe213d3-3543-44ee-bbac-aab5b9899d37")
 			(effects
@@ -14503,7 +14503,7 @@
 			(uuid "081501c6-467a-4f37-b4a7-7b3367e9b384")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8c3678a7-16b0-4928-91a6-4ef1566d1397")
 			(effects
@@ -16344,7 +16344,7 @@
 		(uuid "b4eeb1c1-06a4-4978-a621-4ef6b878f55a")
 		(at 136.036 76.945)
 		(property "Reference" "SW4"
-			(at 0 -19.4 0)
+			(at 11.43 -8.89 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fee29479-c127-46ae-91b1-dd4a64fd21fe")
@@ -21373,7 +21373,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
-			(at -3.302 0 360)
+			(at -3.302 0 0)
 			(layer "B.SilkS")
 			(uuid "b70c9eed-b586-4e8b-8f63-f7ce3394afae")
 			(effects
@@ -21385,7 +21385,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "c1a5846b-f16f-4faa-ac1b-59cd36c08242")
 			(effects
@@ -21569,7 +21569,7 @@
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.2083333333)
-			(net 80 "Net-(Q2-E)")
+			(net 80 "Net-(Q2-C)")
 			(pintype "passive")
 			(uuid "0ae35ef1-a5cb-465e-ab56-4080da57369a")
 		)
@@ -21592,7 +21592,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 2.921 0 360)
+			(at 2.921 0 0)
 			(layer "B.SilkS")
 			(uuid "0e03368d-bfe9-4eb3-aa13-af8fafd27ee3")
 			(effects
@@ -21603,8 +21603,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
-			(at 0 -2.4 360)
+		(property "Value" "BC857"
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "eae25b77-b7cf-4ff1-811b-f394049d6fcc")
 			(effects
@@ -21628,7 +21628,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21641,7 +21641,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" "0.1A Ic, 45V Vce, PNP Transistor, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21655,7 +21655,7 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/73fd9b48-a15c-4c0e-bf10-cb7127373769/de4f065b-1233-49b3-a3b1-ac4f22b6b26b")
+		(path "/73fd9b48-a15c-4c0e-bf10-cb7127373769/f881ddec-ce2e-4235-a48f-5845bf0d5fea")
 		(sheetname "LucaudiOptions")
 		(sheetfile "LucaudiOptions.kicad_sch")
 		(attr smd)
@@ -21802,7 +21802,7 @@
 			(uuid "5375bc2c-dc28-4776-9d3a-da8142fd7d91")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "c55531dc-041d-40b6-b678-c5fcb63c6935")
 			(effects
@@ -21828,7 +21828,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 79 "Net-(Q1-E)")
+			(net 71 "3V3_o")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "362d6608-f862-4614-961f-92ec3b848be8")
@@ -21838,7 +21838,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 71 "3V3_o")
+			(net 79 "Net-(Q1-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "c23c118e-d1d5-48c6-887e-05d67200921c")
@@ -21862,7 +21862,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at -3.302 0 360)
+			(at -3.302 0 0)
 			(layer "B.SilkS")
 			(uuid "289fa64b-d06c-43ae-9c8d-820b89ef043a")
 			(effects
@@ -21874,7 +21874,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "497ef6e6-725c-4391-8c35-486b96c5470d")
 			(effects
@@ -22033,7 +22033,7 @@
 			(uuid "b427c9cd-cda5-434f-adc5-db40ea2334b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "03d7c302-8e33-4903-b498-090b6f1f87dc")
 			(effects
@@ -22058,7 +22058,7 @@
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.2083333333)
-			(net 79 "Net-(Q1-E)")
+			(net 79 "Net-(Q1-C)")
 			(pintype "passive")
 			(uuid "3002c735-4338-4695-8a7d-050785a53417")
 		)
@@ -23505,7 +23505,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 3.429 0 360)
+			(at 3.429 0 0)
 			(layer "B.SilkS")
 			(uuid "4b7db747-e343-4f96-93f2-80e32451aa49")
 			(effects
@@ -23516,8 +23516,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BC847"
-			(at 0 -2.4 360)
+		(property "Value" "BC857"
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "0a66a718-79b7-4395-9c52-eb214be94b40")
 			(effects
@@ -23541,7 +23541,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23554,7 +23554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" "0.1A Ic, 45V Vce, PNP Transistor, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23568,7 +23568,7 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/73fd9b48-a15c-4c0e-bf10-cb7127373769/7f5d778e-7fc8-462f-8fd1-72f1c7d7c7cf")
+		(path "/73fd9b48-a15c-4c0e-bf10-cb7127373769/12d45620-579f-4ad9-acd5-15c08852b9c6")
 		(sheetname "LucaudiOptions")
 		(sheetfile "LucaudiOptions.kicad_sch")
 		(attr smd)
@@ -23741,7 +23741,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 80 "Net-(Q2-E)")
+			(net 71 "3V3_o")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "4d4b29dd-715b-4957-8c12-8939605409f7")
@@ -23751,7 +23751,7 @@
 			(size 1.475 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 71 "3V3_o")
+			(net 80 "Net-(Q2-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "46921d36-fff5-4f7c-a1be-c17acceabba9")
@@ -30242,6 +30242,14 @@
 		(uuid "5f82bb31-f0f5-40e2-ab8b-8404dc1c1046")
 	)
 	(segment
+		(start 88.522 92.947)
+		(end 88.522 94.233)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net 71)
+		(uuid "6a5e36c8-d87b-4f5f-9182-ba54bab56007")
+	)
+	(segment
 		(start 89.681 96.122)
 		(end 89.3 95.741)
 		(width 0.3048)
@@ -30256,6 +30264,14 @@
 		(layer "B.Cu")
 		(net 71)
 		(uuid "87c31c43-3226-4a82-8f25-ccffa0adcf07")
+	)
+	(segment
+		(start 87.964 94.791)
+		(end 86.5845 94.791)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net 71)
+		(uuid "8df0dbac-e0a8-4839-817a-fd4cf1cc8bd3")
 	)
 	(segment
 		(start 89.3 95.741)
@@ -30296,6 +30312,14 @@
 		(layer "B.Cu")
 		(net 71)
 		(uuid "c8353cdd-7f83-4cdf-bc57-ec8ad359905e")
+	)
+	(segment
+		(start 88.522 94.233)
+		(end 87.964 94.791)
+		(width 0.3048)
+		(layer "B.Cu")
+		(net 71)
+		(uuid "cd039619-9818-4ec4-a2da-c951f9ff0b65")
 	)
 	(segment
 		(start 89.681 101.456)
@@ -30576,30 +30600,6 @@
 		(layer "F.Cu")
 		(net 78)
 		(uuid "df739b5e-fdb8-4c4e-96bc-67cda7e7f34b")
-	)
-	(segment
-		(start 88.522 92.947)
-		(end 88.522 94.233)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net 79)
-		(uuid "6a5e36c8-d87b-4f5f-9182-ba54bab56007")
-	)
-	(segment
-		(start 87.964 94.791)
-		(end 86.5845 94.791)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net 79)
-		(uuid "8df0dbac-e0a8-4839-817a-fd4cf1cc8bd3")
-	)
-	(segment
-		(start 88.522 94.233)
-		(end 87.964 94.791)
-		(width 0.3048)
-		(layer "B.Cu")
-		(net 79)
-		(uuid "cd039619-9818-4ec4-a2da-c951f9ff0b65")
 	)
 	(segment
 		(start 87.964 100.506)

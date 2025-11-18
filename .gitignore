@@ -36,7 +36,9 @@ fp-info-cache
 rescue-backup/
 
 *.tsv
-bom/
+gerber/
+production/backups/
+
 
 # Gerber export output
 out/

@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "feb6789d-0c50-4b59-8dd6-08b85df4804b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,21 +83,53 @@
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -119,7 +153,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -129,48 +163,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -246,10 +248,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -323,33 +328,64 @@
 				)
 			)
 			(symbol "Conn_01x05_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -373,7 +409,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -383,59 +419,28 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -529,11 +534,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -603,10 +613,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -615,10 +625,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -664,11 +674,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -736,10 +751,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -760,7 +787,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -772,22 +799,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -833,11 +848,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -955,10 +975,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1035,94 +1058,24 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 2.667)
-					(mid -3.0988 -0.0635)
-					(end -0.381 -2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.429 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1143,7 +1096,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1153,9 +1106,67 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
 					)
 					(stroke
 						(width 0.254)
@@ -1179,8 +1190,54 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1203,42 +1260,8 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 1.016)
-					(radius 0.127)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1268,24 +1291,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
 					(name "C"
@@ -1296,6 +1301,24 @@
 						)
 					)
 					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1340,10 +1363,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC847"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1416,7 +1442,7 @@
 			(symbol "BC847_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -1428,19 +1454,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -1448,18 +1462,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(circle
@@ -1475,9 +1477,45 @@
 				)
 			)
 			(symbol "BC847_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1486,24 +1524,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1529,7 +1549,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "local_lbr:OLED_128_32"
 			(exclude_from_sim no)
@@ -1593,24 +1632,6 @@
 			)
 			(symbol "OLED_128_32_1_1"
 				(pin power_in line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "VCC"
@@ -1628,17 +1649,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 -1.27 180)
+				(pin power_in line
+					(at -7.62 -1.27 0)
 					(length 2.54)
-					(name "SCL"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1664,13 +1685,36 @@
 						)
 					)
 				)
+				(pin input line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1761,19 +1805,91 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Oled I2C screen"
+		(exclude_from_sim no)
+		(at 153.67 14.605 0)
+		(size 19.685 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03cfc5aa-1f2a-4efe-bb1c-9d0bbb46cc68")
+	)
+	(text_box "Rotary Encoder"
+		(exclude_from_sim no)
+		(at 203.2 16.51 0)
+		(size 19.685 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20e8ace4-a812-448b-b116-2df8a1649470")
+	)
+	(text_box "Retour"
+		(exclude_from_sim no)
+		(at 13.97 13.97 0)
+		(size 10.16 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "#1")
+		)
+		(uuid "36c5792c-9855-45da-9940-02c46e2e4ea4")
+	)
+	(text_box "Status LEDs"
+		(exclude_from_sim no)
+		(at 92.075 14.605 0)
+		(size 19.685 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c723a22-24dd-4627-8ed7-9f78054492f4")
 	)
 	(junction
 		(at 233.68 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bd5d639-2d08-4164-9762-7486db528bf6")
-	)
-	(junction
-		(at 107.95 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17ffb63e-3e14-4b39-9f5e-eda275c24920")
 	)
 	(junction
 		(at 231.14 39.37)
@@ -1786,6 +1902,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51e2b4f0-ff66-4584-90cd-76237e304f09")
+	)
+	(junction
+		(at 107.95 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635177d8-22d7-4e6b-b359-cd6e740757e1")
 	)
 	(junction
 		(at 252.73 39.37)
@@ -1841,17 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 66.04) (xy 116.84 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "144e5387-3163-4e5b-ac76-26c6b7f6a1f6")
-	)
-	(wire
-		(pts
-			(xy 107.95 50.8) (xy 107.95 52.07)
+			(xy 107.95 26.67) (xy 107.95 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1881,6 +1993,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 52.07) (xy 100.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f62a3ec-1087-4e22-ac2a-1d39f70a33d0")
+	)
+	(wire
+		(pts
 			(xy 233.68 25.4) (xy 233.68 29.21)
 		)
 		(stroke
@@ -1901,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 107.95 58.42)
+			(xy 107.95 36.83) (xy 107.95 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1928,6 +2050,16 @@
 			(type default)
 		)
 		(uuid "264b464b-84b2-4275-9cd6-da4e037bfdd4")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de87661-4d9d-451d-b5d9-c5cf7b9d4c6c")
 	)
 	(polyline
 		(pts
@@ -1971,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 92.71 36.83)
+			(xy 88.9 52.07) (xy 92.71 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1981,17 +2113,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 107.95 26.67)
+			(xy 116.84 66.04) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4057ef75-b147-460b-b0de-c5864e8c979d")
+		(uuid "3deab08e-e7fb-48b8-9a84-d248c1bc408c")
 	)
 	(wire
 		(pts
-			(xy 116.84 52.07) (xy 116.84 41.91)
+			(xy 116.84 31.75) (xy 116.84 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 57.15) (xy 116.84 58.42)
+			(xy 116.84 36.83) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2071,6 +2203,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 45.72) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a77b2dc-bc36-45f9-a621-6fe435d00d03")
+	)
+	(wire
+		(pts
 			(xy 233.68 44.45) (xy 233.68 45.72)
 		)
 		(stroke
@@ -2131,6 +2273,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 26.67) (xy 116.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ceb349-ec55-4037-95ad-0fb879ec3f7a")
+	)
+	(wire
+		(pts
 			(xy 252.73 39.37) (xy 259.08 39.37)
 		)
 		(stroke
@@ -2151,23 +2303,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 26.67) (xy 107.95 26.67)
+			(xy 97.79 60.96) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad1b3f41-0711-42c0-a992-fb95369243ac")
-	)
-	(wire
-		(pts
-			(xy 107.95 66.04) (xy 107.95 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0291a61-b8b6-49ff-9736-adfed49c2bed")
+		(uuid "a89965ff-3271-4dbe-ae1c-9bcd2145f6f4")
 	)
 	(wire
 		(pts
@@ -2181,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 45.72) (xy 92.71 45.72)
+			(xy 88.9 60.96) (xy 92.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2198,16 +2340,6 @@
 			(type default)
 		)
 		(uuid "bcce48e7-1281-421d-8c5d-b20e5ec9aaca")
-	)
-	(wire
-		(pts
-			(xy 97.79 45.72) (xy 100.33 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb7bbe8-c5d7-4abe-8633-909c90bd480b")
 	)
 	(wire
 		(pts
@@ -2241,23 +2373,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 26.67) (xy 116.84 26.67)
+			(xy 88.9 26.67) (xy 107.95 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf47f3d4-cdbe-479a-b9d3-26ddbffcd5c4")
-	)
-	(wire
-		(pts
-			(xy 97.79 36.83) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfbe5ae4-226b-4668-98fa-908d51ea0e80")
 	)
 	(wire
 		(pts
@@ -2301,13 +2423,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 26.67) (xy 116.84 31.75)
+			(xy 116.84 45.72) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df16e601-f08b-4ae5-a67f-d3ca0cacd3f1")
+		(uuid "e753c2c5-798f-4054-98f1-3b6932a624fb")
 	)
 	(wire
 		(pts
@@ -2398,79 +2520,6 @@
 			(type default)
 		)
 		(uuid "ff1ee2ca-d108-40fa-b813-61e71b108a82")
-	)
-	(text_box "Oled I2C screen"
-		(exclude_from_sim no)
-		(at 153.67 14.605 0)
-		(size 19.685 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "03cfc5aa-1f2a-4efe-bb1c-9d0bbb46cc68")
-	)
-	(text_box "Rotary Encoder"
-		(exclude_from_sim no)
-		(at 203.2 16.51 0)
-		(size 19.685 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20e8ace4-a812-448b-b116-2df8a1649470")
-	)
-	(text_box "Retour"
-		(exclude_from_sim no)
-		(at 13.97 13.97 0)
-		(size 10.16 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "#1")
-		)
-		(uuid "36c5792c-9855-45da-9940-02c46e2e4ea4")
-	)
-	(text_box "Status LEDs"
-		(exclude_from_sim no)
-		(at 92.075 14.605 0)
-		(size 19.685 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8c723a22-24dd-4627-8ed7-9f78054492f4")
 	)
 	(global_label "3V3_o"
 		(shape input)
@@ -2628,7 +2677,7 @@
 	)
 	(global_label "LED_AMP_o"
 		(shape input)
-		(at 88.9 45.72 180)
+		(at 88.9 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2638,7 +2687,7 @@
 		)
 		(uuid "5124c1bd-00a6-48e8-9504-9d785a769fb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.5735 45.72 0)
+			(at 75.5735 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2897,7 @@
 	)
 	(global_label "LED_PWR_o"
 		(shape input)
-		(at 88.9 36.83 180)
+		(at 88.9 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2858,7 +2907,7 @@
 		)
 		(uuid "ca199ff5-0983-41e3-aefd-7ba064c74288")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.3921 36.83 0)
+			(at 75.3921 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +2985,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 95.25 36.83 270)
+		(at 95.25 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2944,7 +2993,7 @@
 		(dnp no)
 		(uuid "09c458aa-4928-4bd9-bd83-9dca00bb49e3")
 		(property "Reference" "R17"
-			(at 93.98 39.624 0)
+			(at 93.98 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +3001,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 96.266 39.624 0)
+			(at 96.266 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3009,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 36.83 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,7 +3018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 36.83 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3027,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 95.25 36.83 0)
+			(at 95.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,8 +3051,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 105.41 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d8d1cf8-83b9-43eb-a71b-f60eadef1d60")
+		(property "Reference" "Q1"
+			(at 110.49 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 110.49 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 110.49 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdb27c5d-76cb-4057-ab87-fcf66a2d8d45")
+		)
+		(pin "3"
+			(uuid "afe4fdfd-39fe-4a69-a25f-1ef2ca0d172c")
+		)
+		(pin "1"
+			(uuid "231b8a70-c592-4a0f-89b4-d4d6a1e66bbf")
+		)
+		(instances
+			(project ""
+				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2/73fd9b48-a15c-4c0e-bf10-cb7127373769"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 107.95 54.61 180)
+		(at 107.95 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3011,7 +3136,7 @@
 		(dnp no)
 		(uuid "1459cf4d-bb54-4695-9d13-82708591b2d9")
 		(property "Reference" "R10"
-			(at 105.41 53.848 0)
+			(at 105.41 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3144,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 104.394 55.88 0)
+			(at 104.394 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3152,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 107.95 54.61 0)
+			(at 107.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 54.61 0)
+			(at 107.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3170,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 107.95 54.61 0)
+			(at 107.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,6 +3323,82 @@
 			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2/73fd9b48-a15c-4c0e-bf10-cb7127373769"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 114.3 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d3c11de-01e5-4d53-ab3f-e0e4b51dd6eb")
+		(property "Reference" "Q2"
+			(at 119.38 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 119.38 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 119.38 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03389839-5648-44c6-b481-f87610dad6d8")
+		)
+		(pin "3"
+			(uuid "ecff9556-2de4-4f4b-ba07-eefd81548ff1")
+		)
+		(pin "1"
+			(uuid "574f2171-b9a7-4503-8dce-e77a878d05ba")
+		)
+		(instances
+			(project "LucaudioESP32_V2_0"
+				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2/73fd9b48-a15c-4c0e-bf10-cb7127373769"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3472,7 +3673,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 116.84 62.23 90)
+		(at 116.84 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3480,7 +3681,7 @@
 		(dnp no)
 		(uuid "5abf089f-0915-4dd9-8745-3a62e1c00b33")
 		(property "Reference" "LED2"
-			(at 118.364 61.722 90)
+			(at 118.364 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3690,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 118.364 63.754 90)
+			(at 118.364 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3699,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 116.84 62.23 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 62.23 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3717,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 116.84 62.23 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3742,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 95.25 45.72 270)
+		(at 95.25 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3549,7 +3750,7 @@
 		(dnp no)
 		(uuid "5f5c075a-871c-4a40-bbc7-beaaa2e81b89")
 		(property "Reference" "R18"
-			(at 93.98 48.514 0)
+			(at 93.98 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3758,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 96.012 48.514 0)
+			(at 96.012 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 45.72 0)
+			(at 95.25 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 45.72 0)
+			(at 95.25 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 95.25 45.72 0)
+			(at 95.25 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,84 +3957,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC847")
-		(at 114.3 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f5d778e-7fc8-462f-8fd1-72f1c7d7c7cf")
-		(property "Reference" "Q2"
-			(at 119.38 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847"
-			(at 119.38 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 119.38 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 114.3 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b28fafa-c38d-444c-be1a-0766f79a3b65")
-		)
-		(pin "3"
-			(uuid "0436513a-dabd-447f-a4ec-f768073bb9b1")
-		)
-		(pin "2"
-			(uuid "1e6afcf0-84df-4eee-a952-87a199489c01")
-		)
-		(instances
-			(project "LucaudioESP32_V1_2_0"
-				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2/73fd9b48-a15c-4c0e-bf10-cb7127373769"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 62.23 90)
+		(at 107.95 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3841,7 +3966,7 @@
 		(dnp no)
 		(uuid "832e7d20-21b8-445a-b3a3-1cba0974b7e9")
 		(property "Reference" "LED1"
-			(at 101.6 61.214 90)
+			(at 101.6 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3975,7 @@
 			)
 		)
 		(property "Value" "AMP"
-			(at 102.616 63.246 90)
+			(at 102.616 42.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3984,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 62.23 0)
+			(at 107.95 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 62.23 0)
+			(at 107.95 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +4002,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 62.23 0)
+			(at 107.95 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4096,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 54.61 180)
+		(at 116.84 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3979,7 +4104,7 @@
 		(dnp no)
 		(uuid "9f9fd797-76df-4766-962a-3e710eabc704")
 		(property "Reference" "R13"
-			(at 114.046 53.34 0)
+			(at 114.046 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4112,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 114.046 55.372 0)
+			(at 114.046 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +4120,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 116.84 54.61 0)
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 54.61 0)
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4138,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 54.61 0)
+			(at 116.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,82 +4503,6 @@
 			(project "LucaudioESP32_V1_2_0"
 				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2/73fd9b48-a15c-4c0e-bf10-cb7127373769"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC847")
-		(at 105.41 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de4f065b-1233-49b3-a3b1-ac4f22b6b26b")
-		(property "Reference" "Q1"
-			(at 110.49 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847"
-			(at 110.49 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 110.49 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 105.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 105.41 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09420e9e-699c-4338-96d2-e9ee471d5c02")
-		)
-		(pin "3"
-			(uuid "04ed926f-1e82-410f-a8de-8105d7687115")
-		)
-		(pin "2"
-			(uuid "7ed12c08-10c2-44c8-bf89-9c48ef3d31bc")
-		)
-		(instances
-			(project "LucaudioESP32_V1_2_0"
-				(path "/e38181f9-45f6-4f8a-b82f-a9fdcbe21bf2/73fd9b48-a15c-4c0e-bf10-cb7127373769"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
